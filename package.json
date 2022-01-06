@@ -1,5 +1,5 @@
 {
-  "name": "Smart-Lights",
+  "name": "Smart-Led-Strips",
   "version": "1.0.0",
   "description": "Drive a neopixel strip with a arduino controlled via Node. Use it to create your own smart lighting system",
   "main": "src/index.js",
