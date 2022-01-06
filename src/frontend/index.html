@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smart LED Controller</title>
+        <style>
+            .control-container{
+                display:flex;
+                align-items:center;
+            }
+            .control-container>div{
+                width:300px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Super basic demo control GUI</p>
+        <p>
+            <a href="/power/on">Turn on the LED</a>
+            <a href="/power/off">Turn off the LED</a>
+        </p>
+        <div class="control-container">
+            <div>
+                <h2>Pulse</h2>
+                <ul>
+                    <li>
+                        <a href="/pattern/pulse/00ff00">Green</a>
+                    </li>
+                    <li>
+                        <a href="/pattern/pulse/ff0000">Red</a>
+                    </li>
+                    <li>
+                        <a href="/pattern/pulse/0000ff">Blue</a>
+                    </li>
+                    <li>
+                        <a href="/pattern/pulse/ffffff">White</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>Bounce</h2>
+                <ul>
+                    <li>
+                        <a href="/pattern/bounce/00ff00">Green</a>
+                    </li>
+                    <li>
+                        <a href="/pattern/bounce/ff0000">Red</a>
+                    </li>
+                    <li>
+                        <a href="/pattern/bounce/0000ff">Blue</a>
+                    </li>
+                    <li>
+                        <a href="/pattern/bounce/ffffff">White</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>Solid</h2>
+                <ul>
+                    <li>
+                        <a href="/pattern/solid/00ff00">Green</a>
+                    </li>
+                    <li>
+                        <a href="/pattern/solid/ff0000">Red</a>
+                    </li>
+                    <li>
+                        <a href="/pattern/solid/0000ff">Blue</a>
+                    </li>
+                    <li>
+                        <a href="/pattern/solid/ffffff">White</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

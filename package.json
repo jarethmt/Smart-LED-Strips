@@ -1,0 +1,16 @@
+{
+  "name": "Smart-Lights",
+  "version": "1.0.0",
+  "description": "Drive a neopixel strip with a arduino controlled via Node. Use it to create your own smart lighting system",
+  "main": "src/index.js",
+  "author": "Jareth Tackett",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^4.1.0",
+    "color-blend": "^3.0.1",
+    "express": "^4.17.2",
+    "johnny-five": "^2.1.0",
+    "node-pixel": "^0.11.0",
+    "raspi-io": "^11.0.0"
+  }
+}
