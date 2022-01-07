@@ -10,6 +10,7 @@ const Color = require('color');
 var opts = {};
 opts.port = process.argv[2] || "";
 opts.io = new Raspi();
+opts.repl = false
 
 var board = new five.Board(opts);
 var strip = null;
@@ -200,6 +201,8 @@ board.on("ready", function() {
     });
 });
 
+
+setInterval(function(){ console.log('still running') }, 1000 * 60 * 30);
 
 
 
